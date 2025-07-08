@@ -200,7 +200,7 @@ body {
   font-size: clamp(2rem, 5vw, 4.5rem);
   margin-top: 0.5rem;
    display: none;
-  margin-left: 78rem;
+  margin-left: auto;
   z-index: 100;
 }
 
