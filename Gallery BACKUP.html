@@ -287,72 +287,6 @@
   margin-top: 0.5rem;
   margin-left: auto;
 }
-
- /* Expanded image modal styles */
-    .modal-overlay {
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background-color: rgba(0, 0, 0, 0.9);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 2000;
-      opacity: 0;
-      visibility: hidden;
-      transition: opacity 0.3s ease, visibility 0.3s ease;
-    }
-
-    .modal-overlay.active {
-      opacity: 1;
-      visibility: visible;
-    }
-
-    .modal-content {
-      position: relative;
-      max-width: 90%;
-      max-height: 90%;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .modal-content img {
-      max-width: 100%;
-      max-height: 80vh;
-      object-fit: contain;
-    }
-
-    .modal-caption {
-      color: white;
-      font-size: 1.5rem;
-      margin-top: 1rem;
-      text-align: center;
-      padding: 1rem;
-      background-color: rgba(201, 147, 91, 0.8);
-      border-radius: 4px;
-      max-width: 80%;
-    }
-
-    .close-modal {
-      position: absolute;
-      top: -40px;
-      right: 0;
-      color: white;
-      font-size: 2rem;
-      cursor: pointer;
-      background: none;
-      border: none;
-    }
-
-    @media (max-width: 768px) {
-      .modal-caption {
-        font-size: 1rem;
-        max-width: 90%;
-      }
-    }
   </style>
 </head>
 <body>
@@ -360,9 +294,9 @@
 <!-- Footer/Header Icons and Branding -->
     <header class="branding-header">
 	  <div class="contact-us">Contact Us:</div>
-      <a href="https://www.facebook.com/ThetaChiZK/"><img class="path-1" src="../path-10.svg" alt="Facebook" /></a>
-      <a href="https://www.instagram.com/thetachizk/"><img class="path-2" src="../path-20.svg" alt="Instagram" /></a>
-      <a href="tel:440-563-1851"><img class="path-3" src="../path-30.svg" alt="Phone" /></a>
+      <a href="https://www.facebook.com/ThetaChiZK/"><img class="path-1" src="path-10.svg" alt="Facebook" /></a>
+      <a href="https://www.instagram.com/thetachizk/"><img class="path-2" src="path-20.svg" alt="Instagram" /></a>
+      <a href="tel:440-563-1851"><img class="path-3" src="path-30.svg" alt="Phone" /></a>
     </header>
 
 	<header class="branding-header-large">
@@ -378,21 +312,21 @@
 <nav id="sidebar" class="sidebar">
   <ul>
     <br><br><br>
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../Newsletter.html">Newsletter</a></li>
-    <li><a href="../Gallery.html">Gallery</a></li>
-    <li><a href="../Blog.html">Blog</a></li>
-    <li><a href="../Rsvp.html">Anniversary RSVP</a></li>
-    <li><a href="../FamilyTreeCannon.html">Family Trees</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Newsletter.html">Newsletter</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="Blog.html">Blog</a></li>
+    <li><a href="Rsvp.html">Anniversary RSVP</a></li>
+    <li><a href="FamilyTreeCannon.html">Family Trees</a></li>
   </ul>
 </nav>
 	  <div class="empty"></div>
 	  <div class="empty"></div>
 	  <div class="empty"></div>
-	  <a href="../index.html">
-        <img class="_248-zeta-kappa-ohio-northern-pdf-1" src="../img/mainlogo.png" alt="Theta Chi Logo" style="padding-top: 1rem" />
+	  <a href="index.html">
+        <img class="_248-zeta-kappa-ohio-northern-pdf-1" src="img/mainlogo.png" alt="Theta Chi Logo" style="padding-top: 1rem" />
       </a>
-	  <div class="GalleryText">Gallery: 2010s</div>
+	  <div class="GalleryText">Gallery: 2020s</div>
     </header>
 
 	<main>
@@ -406,31 +340,31 @@
 
   <div class="family-tree-cannon">
   <div class="row">
-	<a href="../Gallery Pages/1960s.html" style="text-decoration: none;">
+	<a href="Gallery Pages/1960s.html" style="text-decoration: none;">
     <div class="box">1960s</div>
 	</a>
     <div class="line"></div>
-	<a href="../Gallery Pages/1970s.html" style="text-decoration: none;">
+	<a href="Gallery Pages/1970s.html" style="text-decoration: none;">
     <div class="box">1970s</div>
 	</a>
     <div class="line"></div>
-	<a href="../Gallery Pages/1980s.html" style="text-decoration: none;">
+	<a href="Gallery Pages/1980s.html" style="text-decoration: none;">
     <div class="box">1980s</div>
 	</a>
     <div class="line"></div>
-	<a href="../Gallery Pages/1990s.html" style="text-decoration: none;">
+	<a href="Gallery Pages/1990s.html" style="text-decoration: none;">
     <div class="box">1990s</div>
 	</a>
     <div class="line"></div>
-	<a href="../Gallery Pages/2000s.html" style="text-decoration: none;">
+	<a href="Gallery Pages/2000s.html" style="text-decoration: none;">
     <div class="box">2000s</div>
 	</a>
     <div class="line"></div>
-	<a href="../Gallery Pages/2010s.html" style="text-decoration: none;">
+	<a href="Gallery Pages/2010s.html" style="text-decoration: none;">
     <div class="box">2010s</div>
 	</a>
     <div class="line"></div>
-	<a href="../Gallery.html" style="text-decoration: none;">
+	<a href="Gallery.html" style="text-decoration: none;">
     <div class="box">2020s</div>
 	</a>
   </div>
@@ -488,15 +422,6 @@
     -->
     </div>
 
-    <!-- Modal overlay for expanded view -->
-  <div class="modal-overlay" id="modalOverlay">
-    <div class="modal-content">
-      <button class="close-modal" id="closeModal">&times;</button>
-      <img id="modalImage" src="" alt="">
-      <div class="modal-caption" id="modalCaption"></div>
-    </div>
-  </div>
-
   <script>
   function toggleSidebar(button) {
     const sidebar = document.getElementById('sidebar');
@@ -507,12 +432,8 @@
 
 <script>
 const API_KEY   = 'AIzaSyBfRfXym_BgeS4jXCnnxnQUiAUJDTsGi9k';   // your key
-const FOLDER_ID = '1CBMnW2eur6asIywIMbZsNapH40TbDvCT';         // public folder
+const FOLDER_ID = '1Efapk_aAjpDmMpCksZFK8j2_eMAfqfCy';         // public folder
 const TARGET    = document.querySelector('.gallery-container');
-const modalOverlay = document.getElementById('modalOverlay');
-const modalImage = document.getElementById('modalImage');
-const modalCaption = document.getElementById('modalCaption');
-const closeModal = document.getElementById('closeModal');
 
 /* -------------------------------------------------- *
  * Helper: build a download-URL that ALWAYS works     *
@@ -532,37 +453,8 @@ function addImageCard(file) {
   item.innerHTML = `
     <img src="${getImageURL(file)}" alt="${file.name}">
     <div class="caption">${file.name.replace(/\.\w+$/, '')}</div>`;
-
-    item.addEventListener('click', () => {
-        modalImage.src = getImageURL(file);
-        modalCaption.textContent = file.name.replace(/\.\w+$/, '');
-        modalOverlay.classList.add('active');
-        document.body.style.overflow = 'hidden'; // Prevent scrolling
-      });
-
   TARGET.appendChild(item);
 }
-
-/* Close modal function */
-    function closeModalFunc() {
-      modalOverlay.classList.remove('active');
-      document.body.style.overflow = 'auto'; // Re-enable scrolling
-    }
-
-    /* Set up modal close events */
-    closeModal.addEventListener('click', closeModalFunc);
-    modalOverlay.addEventListener('click', (e) => {
-      if (e.target === modalOverlay) {
-        closeModalFunc();
-      }
-    });
-
-    /* Close modal with Escape key */
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
-        closeModalFunc();
-      }
-    });
 
 /* Pull one page of image files */
 async function listDriveFiles(pageToken = '') {
