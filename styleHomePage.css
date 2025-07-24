@@ -61,7 +61,7 @@ body {
 .branding-header-large {
   position: relative;
   width: 100%;
-  background: #b21615;
+  background: #b21515;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -199,7 +199,7 @@ body {
 }
 
 .card {
-  background: #b83636;
+  background: #b21515;
   color: white;
   border-radius: 16px;
   width: 100%;
@@ -259,7 +259,7 @@ body {
 }
 
 .family-button {
-  background: #b83636;
+  background: #b21515;
   border-radius: 43px;
   padding: 1rem 3rem;
   font-size: 2rem;
