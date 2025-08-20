@@ -48,6 +48,10 @@
       gap: 1rem;
     }
 
+    .modal-caption {
+  display: none;
+}
+
     .branding-header {
       position: relative;
       width: 100%;
@@ -400,13 +404,6 @@
 </header>
 
 <main>
-  <div class="top-bar">
-    <div class="search-directory">Search Directory</div>
-    <div class="search-box">
-      <input type="text" placeholder="Search by name or tag..." />
-    </div>
-  </div>
-
   <div class="family-tree-cannon">
     <div class="row">
       <a href="Gallery Pages/1960s.html" style="text-decoration: none;">
@@ -479,13 +476,12 @@
       const item = document.createElement('div');
       item.className = 'gallery-item';
       item.innerHTML = `
-        <img src="${getImageURL(file)}" alt="${file.name}">
-        <div class="caption">${file.name.replace(/\.\w+$/, '')}</div>`;
+  <img src="${getImageURL(file)}" alt="${file.name}" loading="lazy">`;
       
       // Add click event to expand image
       item.addEventListener('click', () => {
         modalImage.src = getImageURL(file);
-        modalCaption.textContent = file.name.replace(/\.\w+$/, '');
+        modalCaption.textContent = '';
         modalOverlay.classList.add('active');
         document.body.style.overflow = 'hidden'; // Prevent scrolling
       });
